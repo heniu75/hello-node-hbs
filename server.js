@@ -16,7 +16,7 @@ app.set('port', (process.env.PORT || 3000));
 app.get('/', function(req, res){
   var context = {
     content: 'this is some content',
-    published: false,
+    published: true,
     title: 'This is the home page.'
   };
 

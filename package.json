@@ -1,8 +1,8 @@
 {
   "name": "hello-node-hbs",
   "version": "1.0.0",
-  "description": "Simple Expres App",
-  "main": "index.js",
+  "description": "Simple Express App - Includes Handlebars templating",
+  "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node server.js"
