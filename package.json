@@ -1,0 +1,16 @@
+{
+  "name": "hello-node-hbs",
+  "version": "1.0.0",
+  "description": "Simple Expres App",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "dependencies" : {
+    "express" : "*",
+    "express-handlebars" : "*"
+  },
+  "author": "Heinrich van Vught",
+  "license": "ISC"
+}

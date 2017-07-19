@@ -1,0 +1,11 @@
+<h1>Welcome - {{title}}</h1>
+You are viewing home
+
+<p />
+
+{{#if published}}
+  The value of 'published was true'. So you allowed to see the content
+  {{content}}
+  {{else}}
+    The value of 'published was false'. So you *not* allowed to see the content!
+{{/if}}
